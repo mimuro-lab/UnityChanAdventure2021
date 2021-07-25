@@ -13,282 +13,330 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\Define">
+      <UniqueIdentifier>{d4193743-e069-48d6-b008-fcf9118a2b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene">
+      <UniqueIdentifier>{592ecb11-4e3a-4590-9610-a74f65071ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Resource">
+      <UniqueIdentifier>{541742cd-e156-4956-979d-c33d8cf157aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{5369a170-731a-43a2-91c5-03efd7f399a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\SelectWindow">
+      <UniqueIdentifier>{0dda5b9e-ac4f-467b-8169-3f625c946530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{7d79ecca-4343-497f-9e0d-9d6de4e32dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utils">
+      <UniqueIdentifier>{87f689bf-3f53-4e52-b395-45e5300c1180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\CalcDamagesOverlap">
+      <UniqueIdentifier>{767ff31f-f894-4ef0-901c-41d122f8f514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\Character">
+      <UniqueIdentifier>{4562b064-4505-4ede-807f-97c0d65a6748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\DamageObj">
+      <UniqueIdentifier>{cee6a2ac-8afd-4945-84d8-209b4184f456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\Enemy">
+      <UniqueIdentifier>{1d30cc68-f357-46e3-9f2b-fda4b975966e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\Player">
+      <UniqueIdentifier>{76f51665-d9b1-4b21-8344-1b5053a44f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\Stage">
+      <UniqueIdentifier>{e783b78f-e413-476b-8179-541fa5d8b5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\Character\AnimationMove">
+      <UniqueIdentifier>{272bd637-dff6-4972-8c45-3abd0871c3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\DamageObj\Bullet">
+      <UniqueIdentifier>{7f09fd77-39f6-4662-8514-ee0a5fe37fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene\DamageObj\Sword">
+      <UniqueIdentifier>{c598879f-bfe4-4424-a2bf-39796ed751e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Animation.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="CalcDamagesOverlap.cpp">
+      <Filter>ソース ファイル\GameScene\CalcDamagesOverlap</Filter>
     </ClCompile>
     <ClCompile Include="AnimationMove.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationMoveBullet.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationMovePlayer.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationMoveSword.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationSwitch.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationSwitchBullet.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationSwitchSword.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Bullet.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CalcDamagesOverlap.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CalcUtils.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CharacterDirect.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="CollisionDetect.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="ConfigScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Controller.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyLoad.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyStatus.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Fps.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Gamepad.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="GameScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Keyboard.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerStatus.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClCompile>
     <ClCompile Include="PredictPoint.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="PredictStageShift.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClCompile>
     <ClCompile Include="Pysical.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClCompile>
-    <ClCompile Include="PysicalBullet.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="Animation.cpp">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClCompile>
-    <ClCompile Include="PysicalSword.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="AnimationSwitch.cpp">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClCompile>
-    <ClCompile Include="RestrictPoint.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="CharacterDirect.cpp">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClCompile>
-    <ClCompile Include="SelectWindow.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Stage.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="StageLoad.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="StartScene.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Sword.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SystemLooper.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="SystemOwner.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="CollisionDetect.cpp">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClCompile>
     <ClCompile Include="VirtualController.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMoveBullet.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSwitchBullet.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PysicalBullet.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMoveSword.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSwitchSword.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="PysicalSword.cpp">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyLoad.cpp">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStatus.cpp">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMovePlayer.cpp">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="RestrictPoint.cpp">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatus.cpp">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PredictStageShift.cpp">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageLoad.cpp">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamepad.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectWindow.cpp">
+      <Filter>ソース ファイル\SelectWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemOwner.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemLooper.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcUtils.cpp">
+      <Filter>ソース ファイル\Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AbsDamageObj.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AbstractScene.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Animation.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationMove.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationMoveBullet.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationMovePlayer.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationMoveSword.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationSwitch.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationSwitchBullet.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationSwitchSword.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Bullet.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CalcDamagesOverlap.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CalcUtils.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CharacterDirect.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionDetect.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ConfigScene.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Controller.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="Define.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyLoad.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyStatus.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Fps.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Gamepad.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="GameScene.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
     <ClInclude Include="ImagePath_Effect.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
     <ClInclude Include="ImagePath_Object.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
     <ClInclude Include="ImagePath_Unitychan.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
-    <ClInclude Include="ISceneChanger.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="CalcDamagesOverlap.h">
+      <Filter>ソース ファイル\GameScene\CalcDamagesOverlap</Filter>
     </ClInclude>
-    <ClInclude Include="Keyboard.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuScene.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerGenerateDamageObj.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerStatus.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="AnimationMove.h">
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClInclude>
     <ClInclude Include="PredictPoint.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="PredictStageShift.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClInclude>
     <ClInclude Include="Pysical.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character\AnimationMove</Filter>
     </ClInclude>
-    <ClInclude Include="PysicalBullet.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="Animation.h">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClInclude>
-    <ClInclude Include="PysicalSword.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="AnimationSwitch.h">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClInclude>
-    <ClInclude Include="RestrictPoint.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="CharacterDirect.h">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClInclude>
-    <ClInclude Include="SelectWindow.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Singleton.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Stage.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="StageLoad.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="StartScene.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Sword.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemLooper.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="SystemOwner.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Task.h">
-      <Filter>ソース ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Unitychan_ImagePath.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="CollisionDetect.h">
+      <Filter>ソース ファイル\GameScene\Character</Filter>
     </ClInclude>
     <ClInclude Include="VirtualController.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameScene\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="AbsDamageObj.h">
+      <Filter>ソース ファイル\GameScene\DamageObj</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMoveBullet.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSwitchBullet.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PysicalBullet.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMoveSword.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSwitchSword.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="PysicalSword.h">
+      <Filter>ソース ファイル\GameScene\DamageObj\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyLoad.h">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStatus.h">
+      <Filter>ソース ファイル\GameScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMovePlayer.h">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGenerateDamageObj.h">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="RestrictPoint.h">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatus.h">
+      <Filter>ソース ファイル\GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictStageShift.h">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageLoad.h">
+      <Filter>ソース ファイル\GameScene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamepad.h">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectWindow.h">
+      <Filter>ソース ファイル\SelectWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemOwner.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemLooper.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcUtils.h">
+      <Filter>ソース ファイル\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>ソース ファイル\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneChanger.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>ソース ファイル\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Unitychan_ImagePath.h">
+      <Filter>ソース ファイル\Define</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
